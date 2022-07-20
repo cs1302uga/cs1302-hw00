@@ -31,6 +31,23 @@ public class TicTacToeGame {
     } // TicTacToeGame
 
     /**
+     * Makes a move for the specified player, {@code p}, at location
+     * ({@code r}, {@code c}) within the game board. If the move is invalid,
+     * the method has no effect on the underlying board. The move is invalid
+     * when the space is already occupied or the space is out of bounds.
+     * Note: This method also increases the number of turns played if the move
+     * is successful.
+     *
+     * @param p the character representing the player making the move.
+     * @param r the row where the move is being made.
+     * @param c the column where the move is being made.
+     */
+    public void playMove( char p, int r, int c ) {
+        // TODO: implement me
+        throw new UnsupportedOperationException("isWinner is not implemented");
+    } // playMove
+
+    /**
      * Returns whether the specified character, {@code p}, has
      * won the game.
      *
@@ -119,20 +136,5 @@ public class TicTacToeGame {
         System.out.println("  2  " + board[2][0] + "|" + board[2][1] + "|" + board[2][2]);
         System.out.println("     0 1 2 ");
     } // displayBoard
-
-    /**
-     * Makes a move for the specified player, {@code p}, at location
-     * ({@code r}, {@code c}) within the game board. If the move is invalid,
-     * the method has no effect on the underlying board. This method also
-     * increases the number of turns played.
-     *
-     * @param p the character representing the player making the move.
-     * @param r the row where the move is being made.
-     * @param c the column where the move is being made.
-     */
-    public void playMove( char p, int r, int c ) {
-        // TODO: implement me
-        throw new UnsupportedOperationException("isWinner is not implemented");
-    } // playMove
 
 } // TicTacToeGame
