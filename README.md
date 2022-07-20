@@ -1,6 +1,6 @@
 # cs1302-ce0.5 Implementing Tic-Tac-Toe
 
-![Approved for: Fall 2020](https://img.shields.io/badge/Approved%20for-Fall%202020-blueviolet)
+![Approved for: Fall 2022](https://img.shields.io/badge/Approved%20for-Fall%202022-darkgreen)
 
 This class exercise is designed to review prerequisite material by having students implement
 methods to complete a command-line Tic-Tac-Toe game given some of the code as a starting point.
@@ -13,8 +13,33 @@ methods to complete a command-line Tic-Tac-Toe game given some of the code as a 
 
 ### Checkpoint 1 Steps - ?
 
-1. Download the exercise source code found
-
+1. Click the link for the [starter code](https://github.com/cs1302uga/cs1302-ce0.5/blob/main/src/TicTacToeGame.java)
+2. Right-click on the button labeled "Raw" near the top of the page.
+3. Select "Save Link as" and save the file somewhere on your local machine.
+4. Create a new Java project within your favorite Java IDE (Eclipse, IntelliJ, etc.) and add `TicTacToeGame.java` to
+   the project.
+5. Read through the comments in the source code. As you are looking through the code, answer the following
+   questions in your notes:
+   * How many instance variables are found in the class? 
+   * What are the names of each instance variable?
+   * What do you think the purpose is of each instance variable?
+   * How many methods are there in total?
+   * How many methods still need to be implemented? What are the names of these methods?
+6. Implement the `playMove` method. Things to consider as you work through it:
+   * What do the comments tell us about how we might implement the method?
+   * What are the inputs/outputs of the method?
+   * What happens when the method receives input corresponding to an invalid move?
+   * Are there any existing methods that we can use to help make the implementation easier?
+7. Implement the `isFull` method. Things to consider as you work through it:
+   * What does it mean for the board to be "full"?
+   * How do we access the game board from within the method?
+   * Should we use loop(s) in our implementation?
+8. Implement the `isWinner` method. Things to consider as you work through it:
+   * What does it mean for one player to win?
+   * Should we use loop(s) in our implementation?
+9. Implement the `isCat` method. Things to consider as you work through it:
+   * What other methods can we call to simplify the implementation? Hint: you
+     can implement this method in just one line of code!
 <hr/>
 
 ![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
