@@ -11,7 +11,7 @@ methods to complete a command-line Tic-Tac-Toe game given some of the code as a 
 
 ## Exercise Steps
 
-### Checkpoint 1 Steps - ?
+### Checkpoint 1 Steps - Implementing the Tic-Tac-Toe Methods
 
 1. Click the link for the [starter code](https://github.com/cs1302uga/cs1302-ce0.5/blob/main/src/TicTacToeGame.java)
 2. Right-click on the button labeled "Raw" near the top of the page.
@@ -38,15 +38,28 @@ methods to complete a command-line Tic-Tac-Toe game given some of the code as a 
    * What does it mean for one player to win?
    * Should we use loop(s) in our implementation?
 9. Implement the `isCat` method. Things to consider as you work through it:
-   * What other methods can we call to simplify the implementation? Hint: you
-     can implement this method in just one line of code!
+   * What exactly does it mean for the game to be a tie? The more specific you are, the easier
+     it will be to turn your idea into code.
+   * What other methods can we call to simplify the implementation? 
+   * Hint: you can implement this method in just one line of code!
 <hr/>
 
 ![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
 
 <hr/>
 
-### Checkpoint 2 Steps - ?
+### Checkpoint 2 Steps - Testing your Implementation
+
+In software development, it is important to **thoroughly** test all of the methods you write by writing
+test code to go along with the implementation. Luckily, a test program for our Tic-Tac-Toe implementation 
+already exists. To test the code you wrote, download 
+[`TicTacToeTester.java`](https://github.com/cs1302uga/cs1302-ce0.5/blob/main/src/TicTacToeTester.java) and
+add it to your existing project. Then, run the code. If you encounter errors, work with your group to resolve
+the issues in those methods.
+
+Generally, when we test methods in a larger software system, we will test each method thoroughly as we write it.
+As you can probably imagine, you don't want to write too much code before testing as bugs can be much harder
+to find in large projects. We will discuss ways to effectively approach this later in the semester.
 
 <hr/>
 
@@ -54,7 +67,12 @@ methods to complete a command-line Tic-Tac-Toe game given some of the code as a 
 
 <hr/>
 
-### Checkpoint 3 Steps - ?
+### Checkpoint 3 Steps - Play the Game!
+
+Now that your code is implemented and tested, play the game against your neighbor! To do this, download
+[`TicTacToeRunner.java`](https://github.com/cs1302uga/cs1302-ce0.5/blob/main/src/TicTacToeRunner.java) and add
+it to your existing project. This class serves as a command-line interface for your game. Please note that other
+interfaces (such as graphical user interfaces) would also work with your implementation!
 
 <hr/>
 
