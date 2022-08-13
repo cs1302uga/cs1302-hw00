@@ -17,51 +17,51 @@ public class TicTacToeRunner {
      *
      * @param args command-line arguments to the program.
      */
-	public static void main( String[] args ) {
-		Scanner keyboard = new Scanner(System.in);
+    public static void main( String[] args ) {
+        Scanner keyboard = new Scanner(System.in);
 
-		char p = 'X';
-		TicTacToeGame ttt = new TicTacToeGame();
-		int r, c;
+        char p = 'X';
+        TicTacToeGame ttt = new TicTacToeGame();
+        int r, c;
 
         // the main game loop
-		while ( ! ( ttt.isWinner('X') || ttt.isWinner('O') || ttt.isFull() ) ) {
-			ttt.displayBoard();
-			System.out.print( "'" + p + "', choose your location (row, column): " );
-			r = keyboard.nextInt();
-			c = keyboard.nextInt();
+        while ( ! ( ttt.isWinner('X') || ttt.isWinner('O') || ttt.isFull() ) ) {
+            ttt.displayBoard();
+            System.out.print( "'" + p + "', choose your location (row, column): " );
+            r = keyboard.nextInt();
+            c = keyboard.nextInt();
 
-			while ( ttt.isValid(r,c) == false || ttt.playerAt(r,c) != ' ' ) {
-				if ( ttt.isValid(r,c) == false ) {
-					System.out.println("That is not a valid location. Try again.");
+            while ( ttt.isValid(r,c) == false || ttt.playerAt(r,c) != ' ' ) {
+                if ( ttt.isValid(r,c) == false ) {
+                    System.out.println("That is not a valid location. Try again.");
                 } else if ( ttt.playerAt(r,c) != ' ' ) {
-					System.out.println("That location is already full. Try again.");
+                    System.out.println("That location is already full. Try again.");
                 } // if
 
-				System.out.print( "Choose your location (row, column): " );
-				r = keyboard.nextInt();
-				c = keyboard.nextInt();
-			}
+                System.out.print( "Choose your location (row, column): " );
+                r = keyboard.nextInt();
+                c = keyboard.nextInt();
+            }
 
-			ttt.playMove( p, r, c );
+            ttt.playMove( p, r, c );
 
-			if ( p == 'X' ) {
-				p = 'O';
+            if ( p == 'X' ) {
+                p = 'O';
             } else {
-				p = 'X';
+                p = 'X';
             } // if
-		} // while
+        } // while
 
-		ttt.displayBoard();
+        ttt.displayBoard();
 
-		if ( ttt.isWinner('X') ) {
-			System.out.println("X is the winner!");
+        if ( ttt.isWinner('X') ) {
+            System.out.println("X is the winner!");
         } // if
-		if ( ttt.isWinner('O') ) {
-			System.out.println("O is the winner!");
+        if ( ttt.isWinner('O') ) {
+            System.out.println("O is the winner!");
         } // if
-		if ( ttt.isCat() ) {
-			System.out.println("The game is a tie.");
+        if ( ttt.isCat() ) {
+            System.out.println("The game is a tie.");
         } // if
-	} // main
+    } // main
 }
