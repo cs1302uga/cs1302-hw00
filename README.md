@@ -82,10 +82,8 @@ interfaces (such as graphical user interfaces) would also work with your impleme
 
 ### Submission Steps
 
-**Each student needs to individually submit their own work.**
-
-1. If we want students to submit, it will have to be done on eLC. The other option is to give a follow-up TopHat
-   question to see if they understood the content.
+You will not submit this assignment. However, this is a warm-up for the first project. Make sure you understand
+the concepts needed for this exercise as all of them will be necessary for the larger project.
 
 <hr/>
 
