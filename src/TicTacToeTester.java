@@ -87,7 +87,7 @@ public class TicTacToeTester {
             if (trials % 7200 == 0) {
                 System.out.print(".");
             } // if
-            next_permutation(game);
+            nextPermutation(game);
         } // while
 
         System.out.println("  [ok]");
@@ -139,21 +139,22 @@ public class TicTacToeTester {
         } // for
     } // increment
 
-    private static void next_permutation( byte[] a ) {
+    private static void nextPermutation( byte[] a ) {
         do {
             increment( a );
         } while ( ! unique(a) );
-    } // next_permutation
+    } // nextPermutation
 
     private static int[] winPatterns = {
-          7,  15,  23,  39,  56,  57,  58,  60,  71,  73,  75,  77,  79,
-         84,  85,  86,  87,  89,  92,  93,  94, 103, 105, 107, 116, 117,
+        7,  15,  23,  39,  56,  57,  58,  60,  71,  73,  75,  77,  79,
+        84,  85,  86,  87,  89,  92,  93,  94, 103, 105, 107, 116, 117,
         118, 120, 121, 122, 124, 135, 143, 146, 147, 150, 151, 154, 158,
         167, 178, 179, 184, 185, 186, 188, 201, 205, 210, 212, 213, 214,
         220, 233, 242, 244, 263, 271, 273, 275, 277, 279, 281, 283, 285,
         292, 293, 294, 295, 300, 302, 305, 307, 308, 309, 312, 313, 314,
         316, 329, 331, 337, 339, 340, 341, 342, 345, 348, 356, 358, 369,
         372, 401, 402, 403, 405, 409, 410, 420, 421, 428, 433, 448, 449,
-        450, 452, 456, 457, 458, 460, 464, 465, 466, 468, 480, 481, 482, 484
+        450, 452, 456, 457, 458, 460, 464, 465, 466, 468, 480, 481, 482,
+        484
     };
 } // TicTacToeTester
