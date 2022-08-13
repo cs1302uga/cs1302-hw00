@@ -1,4 +1,4 @@
-# cs1302-ce0.5 Implementing Tic-Tac-Toe
+# cs1302-hw00 Implementing Tic-Tac-Toe
 
 ![Approved for: Fall 2022](https://img.shields.io/badge/Approved%20for-Fall%202022-darkgreen)
 
