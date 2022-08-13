@@ -43,7 +43,7 @@ public class TicTacToeGame {
      * @param c the column where the move is being made.
      */
     public void playMove( char p, int r, int c ) {
-        // TODO: implement me
+        // TODO: implement me. Replace the line below with your implementation of the method.
         throw new UnsupportedOperationException("isWinner is not implemented");
     } // playMove
 
@@ -56,7 +56,7 @@ public class TicTacToeGame {
      * @param p the character to check.
      */
     public boolean isWinner( char p ) {
-        // TODO: implement me
+        // TODO: implement me. Replace the line below with your implementation of the method.
         throw new UnsupportedOperationException("isWinner is not implemented");
     } // isWinner
 
@@ -66,7 +66,7 @@ public class TicTacToeGame {
      * @return {@code true} if the board is full and {@code false} otherwise.
      */
     public boolean isFull() {
-        // TODO: implement me
+        // TODO: implement me. Replace the line below with your implementation of the method.
         throw new UnsupportedOperationException("isWinner is not implemented");
     } // isFulle
 
@@ -76,7 +76,7 @@ public class TicTacToeGame {
      * @return {@code true} if the game is a tie and {@code false} otherwise.
      */
     public boolean isCat() {
-        // TODO: implement me
+        // TODO: implement me. Replace the line below with your implementation of the method.
         throw new UnsupportedOperationException("isWinner is not implemented");
     } // isCat
 
