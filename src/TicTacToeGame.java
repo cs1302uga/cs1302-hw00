@@ -1,5 +1,5 @@
 /**
- * The {@code TicTacToeGame} represents tic-tac-toe games. Each instance of
+ * The {@code TicTacToeGame} class represents tic-tac-toe games. Each instance of
  * this class would represent a single game of tic-tac-toe. The class includes
  * methods for checking the state of the game and making moves on the game
  * board.
