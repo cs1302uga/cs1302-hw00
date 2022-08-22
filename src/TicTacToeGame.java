@@ -90,7 +90,7 @@ public class TicTacToeGame {
      * @return {@code true} if the specified coordinates are in bounds and
      * {@code false} otherwise.
      */
-    public boolean isValid( int r, int c ) {
+    public boolean isInBounds( int r, int c ) {
         if (0 <= r && r <= 2 && 0 <= c && c <= 2) {
             return true;
         } else {
@@ -118,7 +118,7 @@ public class TicTacToeGame {
      * returns the {@code @} character.
      */
     public char playerAt( int r, int c ) {
-        if (isValid(r,c)) {
+        if (isInBounds(r,c)) {
             return board[r][c];
         } else {
             return '@';
