@@ -114,7 +114,7 @@ public class TicTacToeGame {
      * @param r the row value to check.
      * @param c the column value to check.
      * @return the character representing the player located at position
-     * ({@code r},{@code c} on the board. If the location is blank, the method
+     * ({@code r},{@code c} on the board. If the location is out of bounds, the method
      * returns the {@code @} character.
      */
     public char playerAt( int r, int c ) {
