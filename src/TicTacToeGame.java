@@ -96,7 +96,7 @@ public class TicTacToeGame {
         } else {
             return false;
         } // if
-    } // isValie
+    } // isInBounds
 
     /**
      * Returns the number of turns taken so far in the game.
