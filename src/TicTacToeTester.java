@@ -22,12 +22,12 @@ public class TicTacToeTester {
         check("isFull()",      ttt.isFull(),      false);
         System.out.println("  [ok]");
 
-        // Checking isValid
+        // Checking isInBounds
         int trials = 0;
-        System.out.print("Checking isValid()...");
+        System.out.print("Checking isInBounds()...");
         for (int r = -100; r <= 100; r++) {
             for (int c = -100; c <= 100; c++) {
-                check("isValid(" + r + "," + c + ")", ttt.isValid(r,c),
+                check("isInBounds(" + r + "," + c + ")", ttt.isInBounds(r,c),
                        ( 0 <= r && r < 3 && 0 <= c && c < 3 ) );
                 if (++trials % 777 == 0) {
                     System.out.print(".");
