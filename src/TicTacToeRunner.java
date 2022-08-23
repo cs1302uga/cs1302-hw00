@@ -31,8 +31,8 @@ public class TicTacToeRunner {
             r = keyboard.nextInt();
             c = keyboard.nextInt();
 
-            while ( ttt.isValid(r,c) == false || ttt.playerAt(r,c) != ' ' ) {
-                if ( ttt.isValid(r,c) == false ) {
+            while ( ttt.isInBounds(r,c) == false || ttt.playerAt(r,c) != ' ' ) {
+                if ( ttt.isInBounds(r,c) == false ) {
                     System.out.println("That is not a valid location. Try again.");
                 } else if ( ttt.playerAt(r,c) != ' ' ) {
                     System.out.println("That location is already full. Try again.");
