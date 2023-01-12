@@ -15,7 +15,7 @@ methods to complete a command-line Tic-Tac-Toe game given some of the code as a 
 
 1. Click the link for the [starter code](https://github.com/cs1302uga/cs1302-ce0.5/blob/main/src/TicTacToeGame.java)
 2. Right-click on the button labeled "Raw" near the top of the page.
-3. Select "Save Link as" and save the file somewhere on your local machine.
+3. Select "Save Link as" or "Download Linked File As" and save the file somewhere on your local machine.
 4. Create a new Java project within your favorite Java IDE (Eclipse, IntelliJ, etc.) and add `TicTacToeGame.java` to
    the project.
 5. Read through the comments in the source code. As you are looking through the code, answer the following
