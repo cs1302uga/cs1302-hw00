@@ -10,6 +10,10 @@ import java.util.Arrays;
 public class TicTacToeTester {
     private static TicTacToeGame ttt;
 
+    /**
+     * The main entry point of the application.
+     * @param args the command-line arguments for the program.
+     */
     public static void main( String[] args ) {
         // Checking constructor
         System.out.print("Checking constructor" +
@@ -37,7 +41,15 @@ public class TicTacToeTester {
 
         System.out.println("  [ok]");
 
-        // play every possible game of Tic-Tac-Toe to make sure it's scoring right
+        checkBoards();
+        System.out.println("  [ok]");
+        System.out.println("\nAll tests passed!\n");
+    } // main
+
+    /**
+     * Play every possible game of Tic-Tac-Toe to make sure it's scoring right.
+     */
+    private static void checkBoards() {
         byte[] game = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         int[] cells = { 0, 1, 2, 4, 8, 16, 32, 64, 128, 256 };
         int n = 0, i;
@@ -46,7 +58,7 @@ public class TicTacToeTester {
         int r, c, winner = 3;
         int xTotal = 0, oTotal = 0;
         boolean xWin, oWin, gato;
-        trials = 0;
+        int trials = 0;
 
         System.out.print("Checking isWinner()...");
         while (game[0] < 10) {
@@ -89,11 +101,16 @@ public class TicTacToeTester {
             } // if
             nextPermutation(game);
         } // while
+    } // checkBoards
 
-        System.out.println("  [ok]");
-        System.out.println("\nAll tests passed!\n");
-    } // main
-
+    /**
+     * Ensures that a given {@code property} has the correct value. This method should be used
+     * when the result is a {@code boolean}.
+     *
+     * @param property the property to check.
+     * @param is the actual value of the property.
+     * @param shouldbe the expected value of the property.
+     */
     private static void check(String property, boolean is, boolean shouldbe) {
         if (is != shouldbe) {
             System.out.println("\n\tFATAL ERROR: " + property + " returns " +
@@ -103,6 +120,14 @@ public class TicTacToeTester {
         } // if
     } // check
 
+    /**
+     * Ensures that a given {@code property} has the correct value. This method should be used
+     * when the result is an {@code int}.
+     *
+     * @param property the property to check.
+     * @param is the actual value of the property.
+     * @param shouldbe the expected value of the property.
+     */
     private static void check(String property, int is, int shouldbe) {
         if (is != shouldbe) {
             System.out.println("\n\tFATAL ERROR: " + property + " returns " +
@@ -112,6 +137,12 @@ public class TicTacToeTester {
         } // if
     } // check
 
+    /**
+     * Makes sure the board hasn't been used.
+     *
+     * @param a the board to check.
+     * @return true or false indicating whether the board has been used.
+     */
     private static boolean unique(byte[] a) {
         if (a[0] == 10) {
             return true;
@@ -129,6 +160,11 @@ public class TicTacToeTester {
         return true;
     } // unique
 
+    /**
+     * Updates the board by one.
+     *
+     * @param a the board to update.
+     */
     private static void increment(byte[] a) {
         a[a.length - 1]++;
         for (int i = a.length - 1; i > 0; --i) {
@@ -139,6 +175,11 @@ public class TicTacToeTester {
         } // for
     } // increment
 
+    /**
+     * Cycles through possible tic-tac-toe boards.
+     *
+     * @param a the current board.
+     */
     private static void nextPermutation( byte[] a ) {
         do {
             increment( a );
