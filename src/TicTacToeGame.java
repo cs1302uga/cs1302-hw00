@@ -44,7 +44,7 @@ public class TicTacToeGame {
      */
     public void playMove( char p, int r, int c ) {
         // TODO: implement me. Replace the line below with your implementation of the method.
-        throw new UnsupportedOperationException("isWinner is not implemented");
+        throw new UnsupportedOperationException("playMove is not implemented");
     } // playMove
 
     /**
@@ -67,7 +67,7 @@ public class TicTacToeGame {
      */
     public boolean isFull() {
         // TODO: implement me. Replace the line below with your implementation of the method.
-        throw new UnsupportedOperationException("isWinner is not implemented");
+        throw new UnsupportedOperationException("isFull is not implemented");
     } // isFulle
 
     /**
@@ -77,7 +77,7 @@ public class TicTacToeGame {
      */
     public boolean isCat() {
         // TODO: implement me. Replace the line below with your implementation of the method.
-        throw new UnsupportedOperationException("isWinner is not implemented");
+        throw new UnsupportedOperationException("isCat is not implemented");
     } // isCat
 
 
