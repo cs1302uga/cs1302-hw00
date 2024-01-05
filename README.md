@@ -82,9 +82,9 @@ interfaces (such as graphical user interfaces) would also work with your impleme
 
 ### Submission Steps
 
-You will not submit this assignment yet. Hang on to your code, we may need to use it soon.
-This assignment is a good warm-up for the first project. Make sure you understand
-the concepts needed for this exercise as all of them will be necessary for the larger project.
+You will not submit this assignment yet. Hang on to your code, you will need to use it soon.
+Make sure you understand the concepts needed for this exercise as all of them will be necessary for the 
+first project.
 
 <hr/>
 
