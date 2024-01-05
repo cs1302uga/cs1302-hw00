@@ -13,31 +13,43 @@ methods to complete a command-line Tic-Tac-Toe game given some of the code as a 
 
 ### Checkpoint 1 Steps - Implementing the Tic-Tac-Toe Methods
 
+1. Read the following disclaimers:
+      
+   > In CSCI 1302, per the syllabus, all of your course-related programming will take place in a 
+   > Unix-like environment on the department's Odin server. This includes editing source code
+   > using a terminal-based text editor such as Emacs or Vi (i.e., no Eclipse, IntelliJ, BlueJ, etc.), 
+   > compiling source code from the terminal, generating user-facing documentation, and 
+   > even program execution.
+      
+   > **The only exception to the previous disclaimer is today's exercise!** You've already taken
+   > at least one semester of programming, so use the tools you're currently familiar with to
+   > complete this exercise.
+
 1. Click the link for the [starter code](https://github.com/cs1302uga/cs1302-ce0.5/blob/main/src/TicTacToeGame.java)
-2. Right-click on the button labeled "Raw" near the top of the page.
-3. Select "Save Link as" or "Download Linked File As" and save the file somewhere on your local machine.
-4. Create a new Java project within your favorite Java IDE (Eclipse, IntelliJ, etc.) and add `TicTacToeGame.java` to
+1. Right-click on the button labeled "Raw" near the top of the page.
+1. Select "Save Link as" or "Download Linked File As" and save the file somewhere on your local machine.
+1. Create a new Java project within your favorite Java IDE (Eclipse, IntelliJ, etc.) and add `TicTacToeGame.java` to
    the project.
-5. Read through the comments in the source code. As you are looking through the code, answer the following
+1. Read through the comments in the source code. As you are looking through the code, answer the following
    questions in your notes:
    * How many instance variables are found in the class? 
    * What are the names of each instance variable?
    * What do you think the purpose is of each instance variable?
    * How many methods are there in total?
    * How many methods still need to be implemented? What are the names of these methods?
-6. Implement the `playMove` method. Things to consider as you work through it:
+1. Implement the `playMove` method. Things to consider as you work through it:
    * What do the comments tell us about how we might implement the method?
    * What are the inputs/outputs of the method?
    * What happens when the method receives input corresponding to an invalid move?
    * Are there any existing methods that we can use to help make the implementation easier?
-7. Implement the `isFull` method. Things to consider as you work through it:
+1. Implement the `isFull` method. Things to consider as you work through it:
    * What does it mean for the board to be "full"?
    * How do we access the game board from within the method?
    * Should we use loop(s) in our implementation?
-8. Implement the `isWinner` method. Things to consider as you work through it:
+1. Implement the `isWinner` method. Things to consider as you work through it:
    * What does it mean for one player to win?
    * Should we use loop(s) in our implementation?
-9. Implement the `isCat` method. Things to consider as you work through it:
+1. Implement the `isCat` method. Things to consider as you work through it:
    * What exactly does it mean for the game to be a tie? The more specific you are, the easier
      it will be to turn your idea into code.
    * What other methods can we call to simplify the implementation? 
