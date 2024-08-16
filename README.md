@@ -19,7 +19,7 @@ methods to complete a command-line Tic-Tac-Toe game given some of the code as a 
    > compiling source code from the terminal, generating user-facing documentation, and 
    > even program execution.
       
-   > **The only exception to the previous disclaimer is today's exercise!** You've already taken
+   > **The only exception to the previous disclaimer is this homework assignment!** You've already taken
    > at least one semester of programming, so use the tools you're currently familiar with to
    > complete this exercise.
 
@@ -92,9 +92,9 @@ interfaces (such as graphical user interfaces) would also work with your impleme
 
 ### Submission Steps
 
-You will not submit this assignment yet. Hang on to your code, you will need to use it soon.
+You will not submit this assignment yet. Hang on to your code, you will submit it soon.
 Make sure you understand the concepts needed for this exercise as all of them will be necessary for the 
-first project.
+next homework and the first project.
 
 <hr/>
 
