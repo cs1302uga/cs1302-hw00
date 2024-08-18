@@ -13,6 +13,12 @@ public class TicTacToeGame {
     /** The number of turns taken so far. */
     private int turns;
 
+    /** Constants to improve readability */
+    private static final char X = 'X';
+    private static final char O = 'O';
+    private static final char EMPTY = ' ';
+    private static final char OUT_OF_BOUNDS = '@';
+
     /**
      * Creates a new tic-tac-toe game instance and initializes the
      * internal state of the game. After this method is called, the
@@ -25,7 +31,7 @@ public class TicTacToeGame {
 
         for (int r = 0; r < 3; r++ ) {
             for (int c = 0; c < 3; c++ ) {
-                board[r][c] = ' ';
+                board[r][c] = EMPTY;
             } // for
         } // for
     } // TicTacToeGame
@@ -121,7 +127,7 @@ public class TicTacToeGame {
         if (isInBounds(r,c)) {
             return board[r][c];
         } else {
-            return '@';
+            return OUT_OF_BOUNDS;
         } // if
     } // playerAt
 
