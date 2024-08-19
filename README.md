@@ -1,5 +1,7 @@
 # cs1302-hw00 Implementing Tic-Tac-Toe
 
+![Approved for: Fall 2024](https://img.shields.io/badge/Approved%20for-Fall%202024-blue)
+
 This class exercise is designed to review prerequisite material by having students implement
 methods to complete a command-line Tic-Tac-Toe game given some of the code as a starting point.
 
