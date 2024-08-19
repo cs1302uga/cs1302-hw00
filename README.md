@@ -51,7 +51,7 @@ methods to complete a command-line Tic-Tac-Toe game given some of the code as a 
    * What exactly does it mean for the game to be a tie? The more specific you are, the easier
      it will be to turn your idea into code.
    * What other methods can we call to simplify the implementation? 
-   * Hint: you can implement this method in just one line of code!
+   * Hint: you can implement this method in just one line of code (but you don't have to)!
 <hr/>
 
 ![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
