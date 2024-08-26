@@ -74,7 +74,7 @@ public class TicTacToeGame {
     public boolean isFull() {
         // TODO: implement me. Replace the line below with your implementation of the method.
         throw new UnsupportedOperationException("isFull is not implemented");
-    } // isFulle
+    } // isFull
 
     /**
      * Returns whether the game is a tie (cat game).
